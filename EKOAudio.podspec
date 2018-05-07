@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = 'http://172.28.1.116:9999/iOS/EKOAudio'
+  s.homepage         = 'https://github.com/ekingo/EKOAudio'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ekingo' => 'eebbker@163.com' }
-  s.source           = { :git => 'git@/EKOAudio.git', :tag => s.version.to_s }
+  s.author           = { 'ekingo' => 'xhujin@163.com' }
+  s.source           = { :git => 'git@to_be_edited/EKOAudio.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
