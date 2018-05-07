@@ -22,7 +22,7 @@ pod 'EKOAudio'
 
 ## Author
 
-ekingo, eebbker@163.com
+ekingo, xhujin@163.com
 
 ## License
 
