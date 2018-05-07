@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F853A1F0FC7DDAFF47BEE9E606D67C /* Pods-EKOAudioTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7540D00FA07B4E197CB5010216FCC5 /* Pods-EKOAudioTests-dummy.m */; };
+		A02099DE87A4C662D54D806AF2169BB5 /* Pods-EKOAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5783850F37AECD01D877AA9A64065A /* Pods-EKOAudio-dummy.m */; };
+		A5C9E6734C9B7A99E0B53EE9369EF19D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B334B458B0907A9425BA34BE8F00583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67C036D5D7A1A374D8ACBFC3D851A691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D1B84E10F914E344615BBFADB61F19;
+			remoteInfo = "Pods-EKOAudio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092BCE56DF231FCD6F207810964A4B8D /* libPods-EKOAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EKOAudio.a"; path = "libPods-EKOAudio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7540D00FA07B4E197CB5010216FCC5 /* Pods-EKOAudioTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EKOAudioTests-dummy.m"; sourceTree = "<group>"; };
+		30A1DBF2E77032C18F53FE42363DE8AA /* Pods-EKOAudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EKOAudioTests.release.xcconfig"; sourceTree = "<group>"; };
+		52B55DCC29F5D9832CA1A3BF1C215F19 /* Pods-EKOAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EKOAudio.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67D3D5B48BC8B61CB1AA965A5F2C4878 /* Pods-EKOAudioTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EKOAudioTests-resources.sh"; sourceTree = "<group>"; };
+		6D3CA1FC4FB7D2F7FB6081FFDCAD3FA1 /* Pods-EKOAudioTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EKOAudioTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		836D32912C5DDE36FDD97FE5E216C7D0 /* Pods-EKOAudioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EKOAudioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C52715B9ADDA239F1F1E9D8204AA76 /* Pods-EKOAudioTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EKOAudioTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A620E780270690CB9A566E1696FEF8C3 /* Pods-EKOAudio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EKOAudio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAB4253CA482A6D4995B1BA12F0364FD /* Pods-EKOAudio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EKOAudio-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC5783850F37AECD01D877AA9A64065A /* Pods-EKOAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EKOAudio-dummy.m"; sourceTree = "<group>"; };
+		D35F8AF2C454196E1AB99E409AAC22F1 /* Pods-EKOAudio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EKOAudio-resources.sh"; sourceTree = "<group>"; };
+		EBB938EB3FB1A3580D809894430942A3 /* Pods-EKOAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EKOAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		F2DADFFB9DEE29AD61C1F4CA1C1867A4 /* libPods-EKOAudioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EKOAudioTests.a"; path = "libPods-EKOAudioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC30EA9F83D86502DCBC8158108C6075 /* Pods-EKOAudioTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EKOAudioTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB366330C37E477E5FBFA3AB24F905C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B334B458B0907A9425BA34BE8F00583D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A05E5323FA566178B6061A2C06CA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C9E6734C9B7A99E0B53EE9369EF19D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283C780F20C1485434BCD93BA70F88B1 /* Pods-EKOAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				96C52715B9ADDA239F1F1E9D8204AA76 /* Pods-EKOAudioTests-acknowledgements.markdown */,
+				6D3CA1FC4FB7D2F7FB6081FFDCAD3FA1 /* Pods-EKOAudioTests-acknowledgements.plist */,
+				2E7540D00FA07B4E197CB5010216FCC5 /* Pods-EKOAudioTests-dummy.m */,
+				FC30EA9F83D86502DCBC8158108C6075 /* Pods-EKOAudioTests-frameworks.sh */,
+				67D3D5B48BC8B61CB1AA965A5F2C4878 /* Pods-EKOAudioTests-resources.sh */,
+				836D32912C5DDE36FDD97FE5E216C7D0 /* Pods-EKOAudioTests.debug.xcconfig */,
+				30A1DBF2E77032C18F53FE42363DE8AA /* Pods-EKOAudioTests.release.xcconfig */,
+			);
+			name = "Pods-EKOAudioTests";
+			path = "Target Support Files/Pods-EKOAudioTests";
+			sourceTree = "<group>";
+		};
+		4CF1FD54DF5A54E80BD4DFDE821B9E4F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1AB3947E5B2356BFC5D308C9817F5AD /* Pods-EKOAudio */,
+				283C780F20C1485434BCD93BA70F88B1 /* Pods-EKOAudioTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E207F6D8CB62A828B9F07D85100140D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092BCE56DF231FCD6F207810964A4B8D /* libPods-EKOAudio.a */,
+				F2DADFFB9DEE29AD61C1F4CA1C1867A4 /* libPods-EKOAudioTests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4E207F6D8CB62A828B9F07D85100140D /* Products */,
+				4CF1FD54DF5A54E80BD4DFDE821B9E4F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1AB3947E5B2356BFC5D308C9817F5AD /* Pods-EKOAudio */ = {
+			isa = PBXGroup;
+			children = (
+				A620E780270690CB9A566E1696FEF8C3 /* Pods-EKOAudio-acknowledgements.markdown */,
+				AAB4253CA482A6D4995B1BA12F0364FD /* Pods-EKOAudio-acknowledgements.plist */,
+				CC5783850F37AECD01D877AA9A64065A /* Pods-EKOAudio-dummy.m */,
+				D35F8AF2C454196E1AB99E409AAC22F1 /* Pods-EKOAudio-resources.sh */,
+				EBB938EB3FB1A3580D809894430942A3 /* Pods-EKOAudio.debug.xcconfig */,
+				52B55DCC29F5D9832CA1A3BF1C215F19 /* Pods-EKOAudio.release.xcconfig */,
+			);
+			name = "Pods-EKOAudio";
+			path = "Target Support Files/Pods-EKOAudio";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4555C7B9AFB4844D5094FE73C52334FF /* Pods-EKOAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD0D4CEFAA7B49B263F47FBBE5C32AC /* Build configuration list for PBXNativeTarget "Pods-EKOAudioTests" */;
+			buildPhases = (
+				FCC18AE15EB08DB05476C865CFFC56FB /* Sources */,
+				63A05E5323FA566178B6061A2C06CA28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E074AC02097A7C19F64CD3E393F7358B /* PBXTargetDependency */,
+			);
+			name = "Pods-EKOAudioTests";
+			productName = "Pods-EKOAudioTests";
+			productReference = F2DADFFB9DEE29AD61C1F4CA1C1867A4 /* libPods-EKOAudioTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0D1B84E10F914E344615BBFADB61F19 /* Pods-EKOAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECED5D2A13BC1C9D8DBDD6C74DF4A79 /* Build configuration list for PBXNativeTarget "Pods-EKOAudio" */;
+			buildPhases = (
+				3DAB67911A0CDDEB93ECED3F0E269E4D /* Sources */,
+				3CB366330C37E477E5FBFA3AB24F905C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EKOAudio";
+			productName = "Pods-EKOAudio";
+			productReference = 092BCE56DF231FCD6F207810964A4B8D /* libPods-EKOAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E207F6D8CB62A828B9F07D85100140D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D1B84E10F914E344615BBFADB61F19 /* Pods-EKOAudio */,
+				4555C7B9AFB4844D5094FE73C52334FF /* Pods-EKOAudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAB67911A0CDDEB93ECED3F0E269E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02099DE87A4C662D54D806AF2169BB5 /* Pods-EKOAudio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC18AE15EB08DB05476C865CFFC56FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F853A1F0FC7DDAFF47BEE9E606D67C /* Pods-EKOAudioTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E074AC02097A7C19F64CD3E393F7358B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EKOAudio";
+			target = A0D1B84E10F914E344615BBFADB61F19 /* Pods-EKOAudio */;
+			targetProxy = 67C036D5D7A1A374D8ACBFC3D851A691 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187527A4ADB02984A0126B8481A902C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A1DBF2E77032C18F53FE42363DE8AA /* Pods-EKOAudioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4B57B37C95FBDFD5F6BBB618C25B33FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B55DCC29F5D9832CA1A3BF1C215F19 /* Pods-EKOAudio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833B31B9F3B7744F8083DC50E215C22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836D32912C5DDE36FDD97FE5E216C7D0 /* Pods-EKOAudioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC6945D365BDDC83C96D7F5E69915C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB938EB3FB1A3580D809894430942A3 /* Pods-EKOAudio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD0D4CEFAA7B49B263F47FBBE5C32AC /* Build configuration list for PBXNativeTarget "Pods-EKOAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833B31B9F3B7744F8083DC50E215C22A /* Debug */,
+				187527A4ADB02984A0126B8481A902C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECED5D2A13BC1C9D8DBDD6C74DF4A79 /* Build configuration list for PBXNativeTarget "Pods-EKOAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6945D365BDDC83C96D7F5E69915C65 /* Debug */,
+				4B57B37C95FBDFD5F6BBB618C25B33FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

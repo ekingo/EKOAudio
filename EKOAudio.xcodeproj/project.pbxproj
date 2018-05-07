@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB42DFE0A20B9773F4E6628 /* libPods-EKOAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF484B1B3CBCD151581F9726 /* libPods-EKOAudio.a */; };
+		756CFED42092F7BA00883414 /* EKOAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756CFECA2092F7BA00883414 /* EKOAudio.framework */; };
+		756CFED92092F7BA00883414 /* EKOAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 756CFED82092F7BA00883414 /* EKOAudioTests.m */; };
+		756CFEDB2092F7BA00883414 /* EKOAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFECD2092F7BA00883414 /* EKOAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756CFEF82092FAE400883414 /* Amr2Wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEE52092FAE300883414 /* Amr2Wav.h */; };
+		756CFEF92092FAE400883414 /* Amr2Wav.m in Sources */ = {isa = PBXBuildFile; fileRef = 756CFEE62092FAE300883414 /* Amr2Wav.m */; };
+		756CFEFA2092FAE400883414 /* amrnbcodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEE72092FAE300883414 /* amrnbcodec.h */; };
+		756CFEFB2092FAE400883414 /* amrnbcodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 756CFEE82092FAE300883414 /* amrnbcodec.mm */; };
+		756CFEFC2092FAE400883414 /* audiocodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEE92092FAE300883414 /* audiocodec.h */; };
+		756CFEFD2092FAE400883414 /* audiocodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 756CFEEA2092FAE300883414 /* audiocodec.mm */; };
+		756CFEFE2092FAE400883414 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEEB2092FAE300883414 /* dec_if.h */; };
+		756CFEFF2092FAE400883414 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEEC2092FAE300883414 /* if_rom.h */; };
+		756CFF002092FAE400883414 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEED2092FAE300883414 /* interf_dec.h */; };
+		756CFF012092FAE400883414 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEEE2092FAE300883414 /* interf_enc.h */; };
+		756CFF022092FAE400883414 /* Other2Amr.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEEF2092FAE300883414 /* Other2Amr.h */; };
+		756CFF032092FAE400883414 /* Other2Amr.mm in Sources */ = {isa = PBXBuildFile; fileRef = 756CFEF02092FAE300883414 /* Other2Amr.mm */; };
+		756CFF042092FAE400883414 /* WavData.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFEF12092FAE300883414 /* WavData.h */; };
+		756CFF052092FAE400883414 /* WavData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 756CFEF22092FAE300883414 /* WavData.mm */; };
+		756CFF062092FAE400883414 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 756CFEF52092FAE300883414 /* libopencore-amrnb.a */; };
+		756CFF072092FAE400883414 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 756CFEF62092FAE300883414 /* libopencore-amrwb.a */; };
+		756CFF092092FAFC00883414 /* EKOAudioService.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFF082092FAFC00883414 /* EKOAudioService.h */; };
+		756CFF0D2092FB8A00883414 /* EKOAudioServiceImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CFF0B2092FB8A00883414 /* EKOAudioServiceImpl.h */; };
+		756CFF0E2092FB8A00883414 /* EKOAudioServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 756CFF0C2092FB8A00883414 /* EKOAudioServiceImpl.m */; };
+		756CFF102092FBE100883414 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 756CFF0F2092FBE000883414 /* libc++.tbd */; };
+		758382BC2094027600A0BE08 /* opus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758382BB2094027600A0BE08 /* opus.framework */; };
+		758382BF209402A000A0BE08 /* EKOOpusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 758382BD209402A000A0BE08 /* EKOOpusKit.h */; };
+		758382C0209402A000A0BE08 /* EKOOpusKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 758382BE209402A000A0BE08 /* EKOOpusKit.m */; };
+		758382C22094040500A0BE08 /* EKOAudioProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 758382C12094040500A0BE08 /* EKOAudioProtocol.h */; };
+		DA7C24E17CDC08D3AEB0F0C9 /* libPods-EKOAudioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BE70B7F690C9E9E1BD1BE3 /* libPods-EKOAudioTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		756CFED52092F7BA00883414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 756CFEC12092F7BA00883414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756CFEC92092F7BA00883414;
+			remoteInfo = EKOAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2848651792BD8670891C8C12 /* Pods-EKOAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKOAudio.release.xcconfig"; path = "Pods/Target Support Files/Pods-EKOAudio/Pods-EKOAudio.release.xcconfig"; sourceTree = "<group>"; };
+		64485EA84C8EA83D10A84038 /* Pods-EKOAudioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKOAudioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EKOAudioTests/Pods-EKOAudioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		756CFECA2092F7BA00883414 /* EKOAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EKOAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		756CFECD2092F7BA00883414 /* EKOAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKOAudio.h; sourceTree = "<group>"; };
+		756CFECE2092F7BA00883414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756CFED32092F7BA00883414 /* EKOAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKOAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		756CFED82092F7BA00883414 /* EKOAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKOAudioTests.m; sourceTree = "<group>"; };
+		756CFEDA2092F7BA00883414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756CFEE52092FAE300883414 /* Amr2Wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amr2Wav.h; sourceTree = "<group>"; };
+		756CFEE62092FAE300883414 /* Amr2Wav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amr2Wav.m; sourceTree = "<group>"; };
+		756CFEE72092FAE300883414 /* amrnbcodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrnbcodec.h; sourceTree = "<group>"; };
+		756CFEE82092FAE300883414 /* amrnbcodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrnbcodec.mm; sourceTree = "<group>"; };
+		756CFEE92092FAE300883414 /* audiocodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audiocodec.h; sourceTree = "<group>"; };
+		756CFEEA2092FAE300883414 /* audiocodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = audiocodec.mm; sourceTree = "<group>"; };
+		756CFEEB2092FAE300883414 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		756CFEEC2092FAE300883414 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		756CFEED2092FAE300883414 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		756CFEEE2092FAE300883414 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		756CFEEF2092FAE300883414 /* Other2Amr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Other2Amr.h; sourceTree = "<group>"; };
+		756CFEF02092FAE300883414 /* Other2Amr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Other2Amr.mm; sourceTree = "<group>"; };
+		756CFEF12092FAE300883414 /* WavData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavData.h; sourceTree = "<group>"; };
+		756CFEF22092FAE300883414 /* WavData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WavData.mm; sourceTree = "<group>"; };
+		756CFEF52092FAE300883414 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		756CFEF62092FAE300883414 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		756CFF082092FAFC00883414 /* EKOAudioService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKOAudioService.h; sourceTree = "<group>"; };
+		756CFF0B2092FB8A00883414 /* EKOAudioServiceImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKOAudioServiceImpl.h; sourceTree = "<group>"; };
+		756CFF0C2092FB8A00883414 /* EKOAudioServiceImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKOAudioServiceImpl.m; sourceTree = "<group>"; };
+		756CFF0F2092FBE000883414 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		758382BB2094027600A0BE08 /* opus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opus.framework; sourceTree = "<group>"; };
+		758382BD209402A000A0BE08 /* EKOOpusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKOOpusKit.h; sourceTree = "<group>"; };
+		758382BE209402A000A0BE08 /* EKOOpusKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKOOpusKit.m; sourceTree = "<group>"; };
+		758382C12094040500A0BE08 /* EKOAudioProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKOAudioProtocol.h; sourceTree = "<group>"; };
+		A3944F89F362261DB4BBDBA4 /* Pods-EKOAudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKOAudioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EKOAudioTests/Pods-EKOAudioTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF484B1B3CBCD151581F9726 /* libPods-EKOAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EKOAudio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C547F5D5E27261DB3AFDA8C1 /* Pods-EKOAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKOAudio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EKOAudio/Pods-EKOAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		E9BE70B7F690C9E9E1BD1BE3 /* libPods-EKOAudioTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EKOAudioTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		756CFEC62092F7BA00883414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756CFF102092FBE100883414 /* libc++.tbd in Frameworks */,
+				758382BC2094027600A0BE08 /* opus.framework in Frameworks */,
+				2FB42DFE0A20B9773F4E6628 /* libPods-EKOAudio.a in Frameworks */,
+				756CFF072092FAE400883414 /* libopencore-amrwb.a in Frameworks */,
+				756CFF062092FAE400883414 /* libopencore-amrnb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756CFED02092F7BA00883414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756CFED42092F7BA00883414 /* EKOAudio.framework in Frameworks */,
+				DA7C24E17CDC08D3AEB0F0C9 /* libPods-EKOAudioTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		756CFEC02092F7BA00883414 = {
+			isa = PBXGroup;
+			children = (
+				756CFECC2092F7BA00883414 /* EKOAudio */,
+				756CFED72092F7BA00883414 /* EKOAudioTests */,
+				756CFECB2092F7BA00883414 /* Products */,
+				8B31C2745773AA0A0F271DBA /* Pods */,
+				D4E6AA50F516AA5123A237DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		756CFECB2092F7BA00883414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				756CFECA2092F7BA00883414 /* EKOAudio.framework */,
+				756CFED32092F7BA00883414 /* EKOAudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		756CFECC2092F7BA00883414 /* EKOAudio */ = {
+			isa = PBXGroup;
+			children = (
+				756CFF1120930DF400883414 /* opus */,
+				756CFF0A2092FB5900883414 /* Impl */,
+				756CFEE42092FAE300883414 /* amr */,
+				756CFEF32092FAE300883414 /* Lib */,
+				756CFECD2092F7BA00883414 /* EKOAudio.h */,
+				756CFECE2092F7BA00883414 /* Info.plist */,
+				756CFF082092FAFC00883414 /* EKOAudioService.h */,
+			);
+			path = EKOAudio;
+			sourceTree = "<group>";
+		};
+		756CFED72092F7BA00883414 /* EKOAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				756CFED82092F7BA00883414 /* EKOAudioTests.m */,
+				756CFEDA2092F7BA00883414 /* Info.plist */,
+			);
+			path = EKOAudioTests;
+			sourceTree = "<group>";
+		};
+		756CFEE42092FAE300883414 /* amr */ = {
+			isa = PBXGroup;
+			children = (
+				756CFEE52092FAE300883414 /* Amr2Wav.h */,
+				756CFEE62092FAE300883414 /* Amr2Wav.m */,
+				756CFEE72092FAE300883414 /* amrnbcodec.h */,
+				756CFEE82092FAE300883414 /* amrnbcodec.mm */,
+				756CFEE92092FAE300883414 /* audiocodec.h */,
+				756CFEEA2092FAE300883414 /* audiocodec.mm */,
+				756CFEEB2092FAE300883414 /* dec_if.h */,
+				756CFEEC2092FAE300883414 /* if_rom.h */,
+				756CFEED2092FAE300883414 /* interf_dec.h */,
+				756CFEEE2092FAE300883414 /* interf_enc.h */,
+				756CFEEF2092FAE300883414 /* Other2Amr.h */,
+				756CFEF02092FAE300883414 /* Other2Amr.mm */,
+				756CFEF12092FAE300883414 /* WavData.h */,
+				756CFEF22092FAE300883414 /* WavData.mm */,
+			);
+			path = amr;
+			sourceTree = "<group>";
+		};
+		756CFEF32092FAE300883414 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				758382BA2094027600A0BE08 /* opus */,
+				756CFEF42092FAE300883414 /* amr */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		756CFEF42092FAE300883414 /* amr */ = {
+			isa = PBXGroup;
+			children = (
+				756CFEF52092FAE300883414 /* libopencore-amrnb.a */,
+				756CFEF62092FAE300883414 /* libopencore-amrwb.a */,
+			);
+			path = amr;
+			sourceTree = "<group>";
+		};
+		756CFF0A2092FB5900883414 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				756CFF0B2092FB8A00883414 /* EKOAudioServiceImpl.h */,
+				756CFF0C2092FB8A00883414 /* EKOAudioServiceImpl.m */,
+				758382C12094040500A0BE08 /* EKOAudioProtocol.h */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		756CFF1120930DF400883414 /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				758382BD209402A000A0BE08 /* EKOOpusKit.h */,
+				758382BE209402A000A0BE08 /* EKOOpusKit.m */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		758382BA2094027600A0BE08 /* opus */ = {
+			isa = PBXGroup;
+			children = (
+				758382BB2094027600A0BE08 /* opus.framework */,
+			);
+			path = opus;
+			sourceTree = "<group>";
+		};
+		8B31C2745773AA0A0F271DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C547F5D5E27261DB3AFDA8C1 /* Pods-EKOAudio.debug.xcconfig */,
+				2848651792BD8670891C8C12 /* Pods-EKOAudio.release.xcconfig */,
+				64485EA84C8EA83D10A84038 /* Pods-EKOAudioTests.debug.xcconfig */,
+				A3944F89F362261DB4BBDBA4 /* Pods-EKOAudioTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4E6AA50F516AA5123A237DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				756CFF0F2092FBE000883414 /* libc++.tbd */,
+				BF484B1B3CBCD151581F9726 /* libPods-EKOAudio.a */,
+				E9BE70B7F690C9E9E1BD1BE3 /* libPods-EKOAudioTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		756CFEC72092F7BA00883414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756CFF002092FAE400883414 /* interf_dec.h in Headers */,
+				756CFEDB2092F7BA00883414 /* EKOAudio.h in Headers */,
+				756CFEFE2092FAE400883414 /* dec_if.h in Headers */,
+				758382C22094040500A0BE08 /* EKOAudioProtocol.h in Headers */,
+				756CFF0D2092FB8A00883414 /* EKOAudioServiceImpl.h in Headers */,
+				756CFF092092FAFC00883414 /* EKOAudioService.h in Headers */,
+				756CFEFF2092FAE400883414 /* if_rom.h in Headers */,
+				756CFEF82092FAE400883414 /* Amr2Wav.h in Headers */,
+				756CFEFC2092FAE400883414 /* audiocodec.h in Headers */,
+				756CFF022092FAE400883414 /* Other2Amr.h in Headers */,
+				756CFEFA2092FAE400883414 /* amrnbcodec.h in Headers */,
+				756CFF012092FAE400883414 /* interf_enc.h in Headers */,
+				758382BF209402A000A0BE08 /* EKOOpusKit.h in Headers */,
+				756CFF042092FAE400883414 /* WavData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		756CFEC92092F7BA00883414 /* EKOAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756CFEDE2092F7BA00883414 /* Build configuration list for PBXNativeTarget "EKOAudio" */;
+			buildPhases = (
+				7D09A88726833CACA15243F3 /* [CP] Check Pods Manifest.lock */,
+				756CFEC52092F7BA00883414 /* Sources */,
+				756CFEC62092F7BA00883414 /* Frameworks */,
+				756CFEC72092F7BA00883414 /* Headers */,
+				756CFEC82092F7BA00883414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKOAudio;
+			productName = EKOAudio;
+			productReference = 756CFECA2092F7BA00883414 /* EKOAudio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		756CFED22092F7BA00883414 /* EKOAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 756CFEE12092F7BA00883414 /* Build configuration list for PBXNativeTarget "EKOAudioTests" */;
+			buildPhases = (
+				FEB9A4371C89A079137F39BB /* [CP] Check Pods Manifest.lock */,
+				756CFECF2092F7BA00883414 /* Sources */,
+				756CFED02092F7BA00883414 /* Frameworks */,
+				756CFED12092F7BA00883414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				756CFED62092F7BA00883414 /* PBXTargetDependency */,
+			);
+			name = EKOAudioTests;
+			productName = EKOAudioTests;
+			productReference = 756CFED32092F7BA00883414 /* EKOAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		756CFEC12092F7BA00883414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = XTC;
+				TargetAttributes = {
+					756CFEC92092F7BA00883414 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					756CFED22092F7BA00883414 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 756CFEC42092F7BA00883414 /* Build configuration list for PBXProject "EKOAudio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 756CFEC02092F7BA00883414;
+			productRefGroup = 756CFECB2092F7BA00883414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				756CFEC92092F7BA00883414 /* EKOAudio */,
+				756CFED22092F7BA00883414 /* EKOAudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		756CFEC82092F7BA00883414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756CFED12092F7BA00883414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D09A88726833CACA15243F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EKOAudio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB9A4371C89A079137F39BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EKOAudioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		756CFEC52092F7BA00883414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758382C0209402A000A0BE08 /* EKOOpusKit.m in Sources */,
+				756CFF0E2092FB8A00883414 /* EKOAudioServiceImpl.m in Sources */,
+				756CFF032092FAE400883414 /* Other2Amr.mm in Sources */,
+				756CFF052092FAE400883414 /* WavData.mm in Sources */,
+				756CFEF92092FAE400883414 /* Amr2Wav.m in Sources */,
+				756CFEFD2092FAE400883414 /* audiocodec.mm in Sources */,
+				756CFEFB2092FAE400883414 /* amrnbcodec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756CFECF2092F7BA00883414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756CFED92092F7BA00883414 /* EKOAudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		756CFED62092F7BA00883414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 756CFEC92092F7BA00883414 /* EKOAudio */;
+			targetProxy = 756CFED52092F7BA00883414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		756CFEDC2092F7BA00883414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		756CFEDD2092F7BA00883414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		756CFEDF2092F7BA00883414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C547F5D5E27261DB3AFDA8C1 /* Pods-EKOAudio.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EKOAudio/Lib/opus",
+				);
+				INFOPLIST_FILE = EKOAudio/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EKOAudio/Lib/amr",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtc.callwatch.EKOAudio;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756CFEE02092F7BA00883414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2848651792BD8670891C8C12 /* Pods-EKOAudio.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EKOAudio/Lib/opus",
+				);
+				INFOPLIST_FILE = EKOAudio/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EKOAudio/Lib/amr",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtc.callwatch.EKOAudio;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		756CFEE22092F7BA00883414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64485EA84C8EA83D10A84038 /* Pods-EKOAudioTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKOAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtc.callwatch.EKOAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		756CFEE32092F7BA00883414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3944F89F362261DB4BBDBA4 /* Pods-EKOAudioTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EKOAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xtc.callwatch.EKOAudioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		756CFEC42092F7BA00883414 /* Build configuration list for PBXProject "EKOAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756CFEDC2092F7BA00883414 /* Debug */,
+				756CFEDD2092F7BA00883414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756CFEDE2092F7BA00883414 /* Build configuration list for PBXNativeTarget "EKOAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756CFEDF2092F7BA00883414 /* Debug */,
+				756CFEE02092F7BA00883414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		756CFEE12092F7BA00883414 /* Build configuration list for PBXNativeTarget "EKOAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				756CFEE22092F7BA00883414 /* Debug */,
+				756CFEE32092F7BA00883414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 756CFEC12092F7BA00883414 /* Project object */;
+}
