@@ -10,6 +10,36 @@
 
 #include <stdio.h>
 
+typedef  struct  {
+    
+    char        fccID[4];
+    int32_t      dwSize;
+    char        fccType[4];
+    
+} WAVE_HEADER;
+
+typedef  struct  {
+    
+    char        fccID[4];
+    int32_t      dwSize;
+    int16_t      wFormatTag;
+    int16_t      wChannels;
+    int32_t      dwSamplesPerSec;
+    int32_t      dwAvgBytesPerSec;
+    int16_t      wBlockAlign;
+    int16_t      uiBitsPerSample;
+    
+}WAVE_FMT;
+
+typedef  struct  {
+    
+    char        fccID[4];
+    int32_t      dwSize;
+    
+}WAVE_DATA;
+
+#define kWaveHeaderSize (sizeof(WAVE_HEADER) + sizeof(WAVE_FMT) + sizeof(WAVE_DATA))
+
 @interface WavData : NSObject {
     
     

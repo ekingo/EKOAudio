@@ -70,7 +70,23 @@
             break;
         }
         
-        NSData *destData = [self.audioKit encodePCM:[NSData dataWithContentsOfFile:source]];
+        NSData *dataSrc = [NSData dataWithContentsOfFile:source];
+        NSInteger srcLength = dataSrc.length;
+        NSInteger waveHeaderSize = WAVFileDataIndex(dataSrc);
+        //wav文件需要移除头部TODO
+        NSRange range = NSMakeRange(0, srcLength);
+        if (srcLength > waveHeaderSize) {
+            NSData *waveHeader = [dataSrc subdataWithRange:NSMakeRange(0, 4)];
+            if ([waveHeader isEqualToData:[NSData dataWithBytes:"RIFF" length:4]]) {
+                //dataSrc = [dataSrc subdataWithRange:NSMakeRange(waveHeaderSize,srcLength-waveHeaderSize)];
+                range.location += waveHeaderSize;
+                range.length -= waveHeaderSize;
+            }
+        }
+        
+        NSData *subData = [dataSrc subdataWithRange:range];
+        NSData *destData = [self.audioKit encodePCM:subData];
+        
         if (destData) {
             result = [destData writeToFile:destFile atomically:YES];
         }
